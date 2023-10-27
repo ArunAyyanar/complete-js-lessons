@@ -40,5 +40,21 @@ let n2 = "100";
 console.log(n1 == n2);
 console.log(n1 === n2);
 
-const num = prompt("Enter the number =>");
-console.log(num);
+//const num = prompt("Enter the number =>");
+//console.log(num);
+
+// Logical operators
+
+const dolphinsScores = [97, 112, 101];
+const koalasScores = [109, 95, 123];
+
+const dolAvg = dolphinsScores.reduce((n1, n2) => n1 + n2) / 3;
+const kolaAvg = koalasScores.reduce((n1, n2) => n1 + n2) / 3;
+console.log(dolAvg, kolaAvg);
+if (dolAvg > kolaAvg) {
+  console.log("Dolphins win the trophy");
+} else if (dolAvg < kolaAvg) {
+  console.log("koalas win the trophy");
+} else {
+  console.log("Both win the trophy");
+}
