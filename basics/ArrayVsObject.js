@@ -5,7 +5,7 @@ const arunArr = [
   ["prabha", "arunkumar", "siva"],
 ];
 
-console.log(arunArr);
+console.log(arunArr[3]);
 
 const arunObj = {
   firstName: "arun",
@@ -14,4 +14,10 @@ const arunObj = {
   friends: ["prabha", "arunkumar", "siva"],
 };
 
-console.log(arunObj);
+console.log(arunObj.firstName);
+console.log(arunObj["lastName"]);
+
+const key = "friends";
+
+console.log(arunObj.key);
+console.log(arunObj[key]);
