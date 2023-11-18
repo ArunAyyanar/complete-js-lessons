@@ -21,3 +21,9 @@ const key = "friends";
 
 console.log(arunObj.key);
 console.log(arunObj[key]);
+
+// Task
+
+console.log(
+  `${arunObj.firstName} has ${arunObj.friends.length} friends, and his best friend is called ${arunObj["friends"][0]}`
+);
