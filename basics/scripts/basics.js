@@ -28,3 +28,10 @@ let myObj = {
 console.log(myObj);
 console.log(myObj.myAge == "34"); // not strict with type
 console.log(myObj.myAge === "34"); // strict with type
+
+let employee = {
+  name: "Arun",
+  age: 30,
+};
+
+console.log(employee);
